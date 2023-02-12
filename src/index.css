@@ -1,0 +1,136 @@
+.cabeça {
+    display: flex;
+    justify-content:space-between
+  }
+  
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+  header  {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+ 
+ }
+
+
+
+.seçao1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+  
+  text-align: start;
+  border-radius: 30px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nome{
+  text-align: start ;
+}
+
+.fieldsetcolor{
+  border:1px solid red;
+  background: linear-gradient(117deg, rgb(250, 100, 30) 0%, rgb(255, 136, 31) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+
+}
+
+.fonte{
+  font: 600 24px / 32px Poppins;
+  font-size: 28px;
+  
+}
+
+.fontep{
+  font: 16px / 24px 'Poppins';
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.fontone{
+  font: 16px / 24px 'Poppins';
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 0
+}
+
+.fonteseçao{
+  font-family: 'poppins', sans-serif;
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 0
+}
+
+.fontepp{
+  font: 16px / 24px 'Poppins';
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.imputnome{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'poppins';
+  border: 1px solid rgb(153, 153, 153);
+}
+
+.inputemail{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'poppins';
+  border: 1px solid rgb(153, 153, 153);
+}
+
+.inputnumero{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'poppins';
+  border: 1px solid rgb(153, 153, 153);
+}
+
+.buttoncontinue{
+  background-color: #FA641E;
+  font: 'poppins' white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font: 16px / 24px 'Poppins';
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.buttoncbc{
+  box-shadow: rgb(250 100 30 / 54%) 0px 7px 30px 2px;
+  padding: 5px 20px;
+  margin-left: 400px;
+  color: white;
+  background-color: #FA641E;
+  border-radius: 30px;
+  border: 0px solid rgb(153, 153, 153);
+}
