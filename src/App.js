@@ -1,5 +1,4 @@
 import './App.css';
-import { ReactSVG } from "react-svg";
 
 function App() {
   return (
