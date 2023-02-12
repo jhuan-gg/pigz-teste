@@ -12,47 +12,80 @@ function App() {
           </div>
         </header>
         <div className='fieldsetcolor'>
-        <section className='seçao1'>
-            <div>
+          <section className='seçao1'>
+              <div>
+                <div className="artigo">
+                    <h2 className='fonteseçao'>
+                      Pigz: tudo que <br /> você precisa <br />pra vender <br />ainda mais!
+                    </h2>
+                </div>
+              </div>
+              <div classname="hamburguer">
+                <img src="burguer.PNG" className='burguer' alt="hambuguer" />
+              </div>  
+          </section>
+          <section className='seçao2'>
               <article>
-                <h2 className='fonteseçao'>
-                  Pigz: tudo que você precisa pra vender ainda mais!
-                </h2>
+                <h4 className='fontepp'>Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.</h4>
               </article>
-            </div>
-            <div>
-              <img src="burguer.PNG" className='burguer' alt="hambuguer" />
-            </div>  
+            <form className='formulario'>
+              
+                <h1  className='fonte'>Quero vender no Pigz</h1>
+                <p className='fontone'>Dê o primeiro passo para aumentar suas vendas</p>
+              
+              
+                <p className='fontone'>Nome</p>
+                <input type="text" placeholder='digite seu nome' name="nome" className='imputnome' />
+              
+              
+                <p className='fontone'>E-mail</p>
+                <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail' />
+              
+              
+                <p className='fontone'>Telefone</p>
+                <input type="number" placeholder="digite seu telefone" name='numero' className='inputnumero' />
+              
+              
+                <p className='fontep'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
+              
+                <button className='buttoncontinue'>continuar</button>
+              </form>
           </section>
-          <section>
-            <article>
-              <h4 className='fontepp'>Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.</h4>
-            </article>
-          </section>
-          <form className='formulario'>
-            <article>
-              <h1  className='fonte'>Quero vender no Pigz</h1>
-
-              <p className='fontone'>Dê o primeiro passo para aumentar suas vendas</p>
-            </article>
-            <div>
-              <p className='fontone'>Nome</p>
-              <input type="text" placeholder='digite seu nome' name="nome" className='imputnome' />
-            </div>
-            <div>
-              <p className='fontone'>E-mail</p>
-              <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail' />
-            </div>
-            <div>
-              <p className='fontone'>Telefone</p>
-              <input type="number" placeholder="digite seu telefone" name='numero' className='inputnumero' />
-            </div>
-            <footer>
-              <p className='fontep'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
-            </footer>
-            <button className='buttoncontinue'>continuar</button>
-          </form>
         </div>
+        <section className="pigzimg">
+          <img src="Grupo 3535 (1).svg" alt="pigzimg" className="ju" />
+          <h2 className="pigzdido">Você tem um <br/>novo Pigzdido!</h2>
+        </section>
+        <section className="opçoes">
+          <button className="buttonsnav">
+            <img src="storefront_black_24dp.svg" alt="" />
+            <h2 className="btn">Marketplace 
+              <p className="btns">Pra sua loja vender mais</p>
+            </h2>
+          </button>
+          <button className="buttonsnav">
+            <img src="smartphone_black_24dp.svg" alt="" />
+            <h2 className="btn">É fácil e rápido
+              <p className="btns">Fazer um pedido no pigz</p>
+            </h2>
+          </button>
+          <button className="buttonsnav">
+            <img src="Grupo 3545.svg" alt="" />
+            <h2 className="btn">Pigz gestão
+              <p className="btns">Você no controle, sempre</p>
+            </h2>
+          </button>
+          <button className="buttonsnav">
+            <img src="print_black_24dp.svg" alt="" />
+            <h2 className="btn">Vias de Impressão
+              <p className="btns">Personalizáveis</p>
+            </h2>
+          </button>
+        </section>
+        <section>
+          <h2 className="pigzdido">Tudo que você <br />precisa por apenas <br />R$199/mês</h2>
+          <p className="btns">Tenha todas as funcionalidades <br />Pigz sem taxa de adesão, sem <br />comissão por cada venda, sem <br />letrinhas miúdas.</p>
+        </section>
     </div>
   );
 }
