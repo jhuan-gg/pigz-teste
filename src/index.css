@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .seçao2{
@@ -37,6 +37,7 @@ body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
   
 }
 
@@ -55,6 +56,32 @@ body{
   
 }
 
+#img{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.carrossel{
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+
+.container{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.img{
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+}
 .nome{
   text-align: start ;
 }
@@ -87,15 +114,11 @@ body{
 .fonteseçao{
   font-family: 'poppins', sans-serif;
   color: white;
-  font-size: 40px;
-  line-height: 48px;
-  margin-top: 50px;
+  font-size: clamp(40px, 3em + 1vw, 1.5em);
+  line-height: 40px;
+  margin-top: 70px;
   margin-bottom: 0;
   white-space: nowrap
-  
-
-
-  
 }
 
 .fontepp{
@@ -103,6 +126,8 @@ body{
   color: white;
   margin-bottom: 50px;
   margin-top: 20px;
+  text-align: center;
+  font-size: clamp(14px, 1em + 1vw, 1.5em);
 }
 
 .imputnome{
@@ -110,6 +135,7 @@ body{
   padding: 12px 20px;
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 12px;
   box-sizing: border-box;
   border-radius: 10px;
   font-family: 'poppins';
@@ -118,6 +144,7 @@ body{
 
 .inputemail{
   width: 100%;
+  font-size: 12px;
   padding: 12px 20px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -129,6 +156,7 @@ body{
 
 .inputnumero{
   width: 100%;
+  font-size: 12px;
   padding: 12px 20px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -162,7 +190,10 @@ body{
 
 .burguer{
   margin-top: 45px;
-  width: 136px;
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+  width: 100;
   margin-left: -20px;
   height: 250px;
 }
@@ -207,4 +238,9 @@ body{
   font-size: 15px;
   color: #878686;
   text-align: center;
+}
+
+.btnss{
+ font: 20px / 15px 'Poppins';
+ white-space: nowrap;
 }

@@ -1,4 +1,6 @@
 import './App.css';
+import OneCarrosel from './components/OneCarrosel';
+import SetCarrossel from './components/SetCarrosel';
 
 function App() {
   return (
@@ -21,14 +23,14 @@ function App() {
                 </div>
               </div>
               <div classname="hamburguer">
-                <img src="burguer.PNG" className='burguer' alt="hambuguer" />
+                <img src="burguer.png" className='burguer' alt="hambuguer" />
               </div>  
           </section>
           <section className='seçao2'>
               <article>
                 <h4 className='fontepp'>Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.</h4>
               </article>
-            <form className='formulario'>
+            <form id='login' className='formulario'>
               
                 <h1  className='fonte'>Quero vender no Pigz</h1>
                 <p className='fontone'>Dê o primeiro passo para aumentar suas vendas</p>
@@ -43,7 +45,7 @@ function App() {
               
               
                 <p className='fontone'>Telefone</p>
-                <input type="number" placeholder="digite seu telefone" name='numero' className='inputnumero' />
+                <input type="tel" id='phone' placeholder="(XX) XXXXX-XXXX" name='phone' className='inputnumero' />
               
               
                 <p className='fontep'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
@@ -88,6 +90,7 @@ function App() {
         </section>
     </div>
   );
+
 }
 
 export default App;
