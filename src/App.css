@@ -1,16 +1,266 @@
 .nbgf{
-    margin-top: 80px;
+    margin-top: 80pt;
+    text-align: center;
+    font-size: 32pt;
     letter-spacing: -2px;
 }
 
 .fontepigz{
   font-family: 'poppins', sans-serif;
-
-  font-size: clamp(25px, 3em + 1vw, 1.5em);
+  margin-bottom: 0;
+  font-size: 24pt;
+  margin-top: 80pt;
+  margin-left: 56pt;
 }
 
 .fonteabaixo{
     font-family: 'poppins', sans-serif;
-    margin-top: 80px;
+    margin-top: 15px;
     letter-spacing: 0px;
+    color: #878686;
+    margin-left: 40pt;
+    font-size: 16pt;
+
+}
+
+.lkjkl{
+    font-family: 'poppins',sans-serif;
+    font-size: 20pt;
+    margin-left: 30px;
+}
+
+.kjuh{
+    margin-left: 40pt;
+    margin-top: 40pt;
+}
+
+.jkhuy{
+    font-family: 'poppins' , sans-serif;
+    color: #333333;
+    line-height: 24pt;
+    margin-left: 40pt;
+    line-height: 30px;
+    font-size: 14pt;
+
+}
+
+.kvdjoj{
+    align-items: center;
+    text-align: center;
+}
+
+.ksks{
+    margin-top: 40pt;
+    margin-left: 16pt;
+    background-color: #FAFAFA;
+    background: #FAFAFA;
+    border: solid #FAFAFA;
+    width: 382pt;
+    height: 472pt;
+    border-radius: 64pt;
+}
+
+.ciodu{
+    margin-left: 40pt;
+    width: 302pt;
+    height: 56pt;
+    border-radius: 32pt;
+    margin-top: 20pt;
+    border: 0;
+    font-family: 'poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 16pt;
+    background:linear-gradient(#FA641E,#FF881F );
+    box-shadow: rgb(250 100 30 / 54%) 0px 7px 30px 2px;
+    
+}
+
+.kjsdb{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 54pt;
+    width: 160pt;
+    height: 56pt;
+    background: white;
+    border-radius: 32pt;
+    margin-left: 40pt;
+}
+
+
+.kjbok{
+    margin-top: 20pt;
+}
+
+.kjfnx{
+    width: 302pt;
+    height: 140pt;
+    line-height: 24pt;
+    
+}
+
+.lkdn{
+    width: 258pt;
+    height: 56;
+    
+}
+
+.xodek{
+    width: 18pt;
+    height: 18pt;
+    margin-left: 19pt;
+    margin-right: 7pt;
+
+}
+
+.ksfks{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 366pt;
+    height: 56pt;
+    color: #333333;
+    margin-top: 40pt;
+    justify-content: center;
+    margin-left: 24pt;
+
+}
+
+.oxmfk{
+    font-family: 'poppins', regular; 
+    font-weight: bold; 
+    font-size: 16pt;
+}
+
+.oxmfkr{
+    font-family: 'poppins', regular; 
+    font-weight: bold; 
+    font-size: 13pt;
+    margin-right: 3pt;
+}
+
+.mdkofi{
+    width: 414pt;
+    height: 888pt;
+    background: #FAFAFA;
+
+}
+
+.xlfked{
+    width: 80pt;
+    height: 40pt;
+    margin-top: 64pt;
+    margin-left: 16pt;
+}
+
+.lksj{
+    font-family: 'poppins', sans-serif;
+    font-size: 11pt;
+    margin-left: 16pt;
+    color: #676767;
+}
+
+.xokmfo{
+    font-family: 'poppins', sans-serif;
+    margin-left: 16pt;
+    margin-top: 24pt;
+    color: #676767;
+    font-weight: bolder;
+}
+
+.ldkdj{
+    display: flex;
+    align-items: center;
+}
+
+.ldkjq{
+    width: 89.75pt;
+    height: 30pt;
+}
+
+.jsjsf{
+    margin-left: 16pt;
+}
+
+.ksldf{
+margin-left: 10pt;
+
+}
+
+.xokmfov{
+    font-family: 'poppins', sans-serif;
+    margin-left: 16pt;
+    color: #676767;
+    font-weight: bolder;
+    margin-top: 64pt;
+    font-size: 16pt;
+}
+.msvje{
+    font-family: 'poppins', sans-serif;
+    margin-top: 24pt;
+    font-size: 14pt;
+    margin-left: 16pt;
+    color: #666666;
+}
+
+.xvpdd{
+    width: 24pt;
+    height: 24pt;
+    margin-left: 16pt;
+}
+
+.xokmfovf{
+    font-family: 'poppins', sans-serif;
+    margin-left: 15pt;
+    color: #676767;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.ldkdjm{
+    margin-top: 64pt;
+}
+
+.skfnokj{
+    font-weight: bold;
+}
+
+.kcal{
+    width: 25pt;
+    height: 25pt;
+    margin-left: 16pt;
+}
+
+.cspc{
+    border-top: 1px solid #676767;
+    margin-top: 70pt;
+    width: 100%;
+
+}
+
+.cspch{
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.kncl{
+    margin-top: 10pt;
+    font-size: 12pt;
+}
+
+.egge{
+    font-size: 10pt;
+}
+
+.skcjhnokls{
+    width: 69.69pt;
+    height: 20pt;
+    margin-left: 31.31pt;
+}
+
+.sffa{
+    border-top: 5px solid #FF671F;
 }

@@ -4,32 +4,48 @@
   }
   
 .logo{
-  margin-left: 10px;
+  margin-left: 16pt;
+  width: 64pt;
+  height: 63.99pt;
 }
 
 body{
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  width: 414pt;
 }
 
 
   header  {
-    padding-top: 10px;
+    width: 90pt;
     background: #fff;
-    width: 100%;
+    width: 414pt;
     position: fixed;
  
- }
-
-
-
-.seçao1{
+  }
+  
+  
+  
+ .seçao1{
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 0px;
-}
+    margin-left: 16pt;
+    margin-right: 140pt;
+  }
+  
+.artigo{
+  display: flex;
+  justify-content: space-between;
+ }
+  
+.burguer{
+    display: flex;
+    width: 161pt;  
+    height: 250pt;
+    margin-left: 162%;
+    margin-top: 66pt;
+  }
 
 .seçao2{
   margin-left: 10px;
@@ -45,12 +61,13 @@ body{
   margin-left: 10px;
   margin-right: 10px;
   text-align: start;
-  border-radius: 30px;
+  border-radius: 32px;
   background-color: white;
   padding-top: 20px;
   padding-left: 25px;
   padding-right: 25px;
-  width: 350px;
+  width: 382pt;
+  height: 547pt;
   display: flexbox;
   flex-direction: column;
   
@@ -62,7 +79,8 @@ body{
 
 .fieldsetcolor{
   padding-bottom: 100px;
-
+  width: 414pt;
+  height: 1015pt;
   background: linear-gradient(117deg, rgb(250, 100, 30) 0%, rgb(255, 136, 31) 100%) 0% 0% no-repeat padding-box padding-box transparent;
 
 }
@@ -70,72 +88,77 @@ body{
 
 .fontep{
   font: 16px / 24px 'Poppins';
-  font-size: 12px;
+  font-size: 16pt;
   margin-top: 5px;
 }
 
 .fontone{
   font: 16px / 24px 'Poppins';
-  font-size: 12px;
+  font-size: 13pt;
   margin-top: 5px;
   margin-bottom: 0
 }
 
 .fonteseçao{
-  font-family: 'poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'poppins', Isans-serif;
   color: white;
-  font-size: clamp(30px, 3em + 1vw, 1.5em);
-  line-height: 40px;
-  margin-top: 70px;
+  font-size: 40pt;
+  line-height: 48pt;
+  margin-top: 90pt;
   margin-bottom: 0;
   white-space: nowrap;
-  letter-spacing: -1px;
+  letter-spacing: 0;
+  position: absolute;
 
 }
 
 .fontepp{
   font: 16px / 24px 'Poppins';
   color: white;
+  font-size: 16pt;
+  margin-left: 16px;
   margin-bottom: 50px;
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 0px;
+  text-align: start;
   letter-spacing: 0px;
-
   font-size: clamp(14px, 1em + 1vw, 1.5em);
 }
 
 .imputnome{
-  width: 100%;
+  width: 334pt;
+  height: 48pt;
   padding: 12px 20px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 6pt;
+  margin-bottom: 20pt;
   font-size: 12px;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 16pt;
   font-family: 'poppins';
   border: 1px solid rgb(153, 153, 153);
 }
 
 .inputemail{
-  width: 100%;
+  width: 334pt;
+  height: 48pt;
   font-size: 12px;
   padding: 12px 20px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 6pt;
+  margin-bottom: 20pt;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 16pt;
   font-family: 'poppins';
   border: 1px solid rgb(153, 153, 153);
 }
 
 .inputnumero{
-  width: 100%;
+  width: 334pt;
+  height: 48pt;
   font-size: 12px;
   padding: 12px 20px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 6pt;
+  margin-bottom: 20pt;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 16pt;
   font-family: 'poppins';
   border: 1px solid rgb(153, 153, 153);
 }
@@ -147,44 +170,59 @@ body{
   padding: 10px 30px;
   font: 16px / 24px 'Poppins';
   color: white;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 334pt;
+  height: 48pt;
+  margin-top: 30pt;
+  margin-bottom: 24pt;
   border: 0;
 }
 
 .buttoncbc{
   box-shadow: rgb(250 100 30 / 54%) 0px 7px 30px 2px;
-  padding: 5px 20px;
-  margin-right: 10px;
+  margin-right: 16pt;
+  margin-top: 20pt;
+  font-size: 14pt;
   color: white;
+  width: 158pt;
+  height: 32pt;
   background-color: #FA641E;
   border-radius: 30px;
   border: 0px solid rgb(153, 153, 153);
 }
 
-.burguer{
-  margin-top: 45px;
-  display: flex;
-  align-items: flex-end;
-  text-align: end;
-  width: 100p;
-  margin-left: -20px;
-  height: 250px;
-}
 
 .pigzimg{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 205.3pt;
+  height: 140pt;
+  margin-top: -90px;
+  margin-left: 104.35pt;
+  margin-right: 104.35pt;
+
 }
 
 .pigzdido{
-  text-align: center;
+  margin-left: 64pt;
+  margin-right: 64pt;  
   font: 600 35px / 42px Poppins;
   letter-spacing: -2px;
 
 }
 
-.opçoes{
+.pigzdiddo{
   text-align: center;
+  margin-left: 64pt;
+  margin-right: 64pt;  
+  font-family: 'Poppins';
+  margin-top: 120pt;
+  font-size: 32pt;
+  line-height: 40pt;
+  letter-spacing: 0;
+}
+
+.opçoes{
   align-items: center;
   margin-top: 50px;
   display: flex;
@@ -192,6 +230,7 @@ body{
 }
 
 .buttonsnav{
+
   text-align: center;
   margin-top: 10px;
   font-size: 50px;
@@ -199,8 +238,10 @@ body{
   color: black;
   background-color: #FAFAFA;
   border-radius: 50px;
-  width: 250px;
-  height: 250px;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  width: 270pt;
+  height: 243pt;
   border: 0;
 }
 
@@ -211,11 +252,11 @@ body{
 
 .btns{
   font: 20px / 15px 'Poppins';
-  font-size: 15px;
-  color: #878686;
+  font-size: 16pt;
+  color: #333333;
   text-align: center;
-  line-height: 20px;
-  margin-top: 50px;
+  line-height: 24pt;
+  margin-top: 20pt;
   white-space: nowrap;
 }
 
@@ -225,29 +266,32 @@ body{
 }
 
 .colorletra{
-  font: 15px / 20px 'Poppins';
+  font-family: 'poppins', sans-serif;
+  font-size: 15pt;
+  margin-top: 40pt;
   color: white;
 }
 
 .fonte{
   font: 600 24px / 32px Poppins;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: -1px;
+  font-size: 28pt;
 
-  
+  letter-spacing: -1px; 
+}
+
+.skfsj{
+  font-size: 12pt;
 }
 
 .carrosselum{
-  align-items: center;
-  margin-top: 10px;
+  margin-top: 40pt;
   font-size: 50px;
   font: 13px / 10px Poppins;
   color: black;
   background: linear-gradient(117deg, rgb(250, 100, 30) 0%, rgb(255, 136, 31) 100%) 0% 0% no-repeat padding-box padding-box transparent;;
-  border-radius: 63px;
-  width: 380px;
-  height: 380px;
+  border-radius: 64pt;
+  width: 382pt;
+  height: 400pt;
 }
 
 .quadrado{
@@ -258,8 +302,8 @@ body{
 }
 
 .image{
-  width: 100%;
-  height: 50%;
-  margin-top: 25px;
+  width: 382pt;
+  height: 200pt;
+  margin-top: 25pt;
 }
 

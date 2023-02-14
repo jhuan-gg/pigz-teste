@@ -20,7 +20,4 @@ const SetCarrossel = () => {
 }
 
 
-
-
-
 export default SetCarrossel

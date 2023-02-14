@@ -1,6 +1,9 @@
 import './App.css';
-import OneCarrosel from './components/OneCarrosel';
-import SetCarrossel from './components/SetCarrosel';
+import SetCarrossel from './components/caroussel/SetCarrosel'
+import PigzPigz from './components/informaçoes/PigzPigz';
+import Pagamento from './components/informaçoes/Pagamento';
+import WhatsApp from './components/informaçoes/Whatsapp';
+import Footer from './components/Rodape.js/Footer';
 
 function App() {
   return (
@@ -20,11 +23,9 @@ function App() {
                     <h2 className='fonteseçao'>
                       Pigz: tudo que <br /> você precisa <br />pra vender <br />ainda mais!
                     </h2>
+                      <img src="burguer.png" className='burguer' alt="hambuguer" />
                 </div>
               </div>
-              <div classname="hamburguer">
-                <img src="burguer.png" className='burguer' alt="hambuguer" />
-              </div>  
           </section>
           <section className='seçao2'>
               <article>
@@ -36,15 +37,15 @@ function App() {
                 <p className='fontone'>Dê o primeiro passo para aumentar suas vendas</p>
               
               
-                <p className='fontone'>Nome</p>
+                <p className='fontone skfsj'>Nome</p>
                 <input type="text" placeholder='digite seu nome' name="nome" className='imputnome' />
               
               
-                <p className='fontone'>E-mail</p>
+                <p className='fontone skfsj'>E-mail</p>
                 <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail' />
               
               
-                <p className='fontone'>Telefone</p>
+                <p className='fontone skfsj'>Telefone</p>
                 <input type="tel" id='phone' placeholder="(XX) XXXXX-XXXX" name='phone' className='inputnumero' />
               
               
@@ -54,8 +55,8 @@ function App() {
               </form>
           </section>
         </div>
-        <section className="pigzimg">
-          <img src="Grupo 3535 (1).svg" alt="pigzimg" className="ju" />
+        <section className='kvdjoj'>
+          <img src="Grupo 3535 (1).svg" className="pigzimg" />
           <h2 className="pigzdido">Você tem um <br/>novo Pigzdido!</h2>
         </section>
         <section className="opçoes">
@@ -85,7 +86,7 @@ function App() {
           </button>
         </section>
         <section>
-          <h2 className="pigzdido">Tudo que você <br />precisa por apenas <br />R$199/mês</h2>
+          <h2 className="pigzdiddo">Tudo que você <br />precisa por apenas <br />R$199/mês</h2>
           <p className="btns">Tenha todas as funcionalidades <br />Pigz sem taxa de adesão, sem <br />comissão por cada venda, sem <br />letrinhas miúdas.</p>
         </section>
         <SetCarrossel />
@@ -95,10 +96,10 @@ function App() {
           </h1>
           <p className='btns'>Respostas automáticas e robôs? <br />Aqui não. Nossa equipe está <br />sempre disponível pra ajudar você <br />e seus clientes.</p>
         </section>
-        <section>
-          <h2 className='fontepigz'>pigz</h2>
-          <p className='fonteabaixo'>Tudo o que você precisa</p>
-        </section>
+        <PigzPigz />
+        <Pagamento />
+        <WhatsApp />
+        <Footer />
     </div>
   );
 
