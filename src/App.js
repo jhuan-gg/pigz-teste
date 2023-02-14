@@ -34,22 +34,22 @@ function App() {
             <form id='login' className='formulario'>
               
                 <h1  className='fonte'>Quero vender no Pigz</h1>
-                <p className='fontone'>Dê o primeiro passo para aumentar suas vendas</p>
+                <p className='fontone ckjdsfc'>Dê o primeiro passo para aumentar suas vendas</p>
               
               
                 <p className='fontone skfsj'>Nome</p>
-                <input type="text" placeholder='digite seu nome' name="nome" className='imputnome' />
+                <input type="text" placeholder='digite seu nome' name="nome" className='imputnome texto' />
               
               
                 <p className='fontone skfsj'>E-mail</p>
-                <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail' />
+                <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail texto' />
               
               
                 <p className='fontone skfsj'>Telefone</p>
-                <input type="tel" id='phone' placeholder="(XX) XXXXX-XXXX" name='phone' className='inputnumero' />
+                <input type="tel" id='phone' placeholder="(XX) XXXXX-XXXX" name='phone' className='inputnumero texto' />
               
               
-                <p className='fontep'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
+                <p className='fontep ckjdsfc'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
               
                 <button className='buttoncontinue'>continuar</button>
               </form>
@@ -60,27 +60,27 @@ function App() {
           <h2 className="pigzdido">Você tem um <br/>novo Pigzdido!</h2>
         </section>
         <section className="opçoes">
-          <button className="buttonsnav">
+          <button  className="buttonsnav">
             <img src="storefront_black_24dp.svg" alt="" />
-            <h2 className="btn">Marketplace 
+            <h2 className="btn sfdfv">Marketplace 
               <p className="btns">Pra sua loja vender mais</p>
             </h2>
           </button>
           <button className="buttonsnav">
             <img src="smartphone_black_24dp.svg" alt="" />
-            <h2 className="btn">É fácil e rápido
+            <h2 className="btn sfdfv">É fácil e rápido
               <p className="btns">Fazer um pedido no pigz</p>
             </h2>
           </button>
           <button className="buttonsnav">
             <img src="Grupo 3545.svg" alt="" />
-            <h2 className="btn">Pigz gestão
+            <h2 className="btn sfdfv">Pigz gestão
               <p className="btns">Você no controle, sempre</p>
             </h2>
           </button>
           <button className="buttonsnav">
             <img src="print_black_24dp.svg" alt="" />
-            <h2 className="btn">Vias de Impressão
+            <h2 className="btn sfdfv">Vias de Impressão
               <p className="btns">Personalizáveis</p>
             </h2>
           </button>

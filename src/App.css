@@ -249,6 +249,14 @@ margin-left: 10pt;
 .kncl{
     margin-top: 10pt;
     font-size: 12pt;
+    transition: 0.5s;
+}
+
+.kncl:hover{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .egge{
@@ -263,4 +271,48 @@ margin-left: 10pt;
 
 .sffa{
     border-top: 5px solid #FF671F;
+}
+
+
+
+.slfls{
+    width: 88pt;
+    height: 4pt;
+    border-radius: 8pt;
+    border: 0;
+    transition: 0.5s opacity;
+    
+}
+
+.slfls:hover{
+
+    background:  #FA641E;
+}
+
+.asdd{
+    margin-left: 16pt;
+}
+
+.khlglb{
+    margin-left: 10pt;
+}
+
+.licsjc{
+    margin-left: 10pt;
+
+
+}
+
+.lvdjv{
+    margin-left: 10pt;
+
+}
+
+.texto{
+    font-size: 14pt;
+}
+
+.ckjdsfc{
+    color: #333333;
+    font-size: 13pt;
 }

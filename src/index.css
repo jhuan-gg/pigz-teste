@@ -243,7 +243,10 @@ body{
   width: 270pt;
   height: 243pt;
   border: 0;
+
 }
+
+
 
 .btn{
   margin-top: 30px;
@@ -307,3 +310,7 @@ body{
   margin-top: 25pt;
 }
 
+.sfdfv{
+  font-size: 20pt;
+  font-weight: bold;
+}
