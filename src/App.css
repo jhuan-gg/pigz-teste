@@ -1,0 +1,16 @@
+.nbgf{
+    margin-top: 80px;
+    letter-spacing: -2px;
+}
+
+.fontepigz{
+  font-family: 'poppins', sans-serif;
+
+  font-size: clamp(25px, 3em + 1vw, 1.5em);
+}
+
+.fonteabaixo{
+    font-family: 'poppins', sans-serif;
+    margin-top: 80px;
+    letter-spacing: 0px;
+}

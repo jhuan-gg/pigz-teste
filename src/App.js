@@ -88,6 +88,17 @@ function App() {
           <h2 className="pigzdido">Tudo que você <br />precisa por apenas <br />R$199/mês</h2>
           <p className="btns">Tenha todas as funcionalidades <br />Pigz sem taxa de adesão, sem <br />comissão por cada venda, sem <br />letrinhas miúdas.</p>
         </section>
+        <SetCarrossel />
+        <section>
+          <h1 className='pigzdido nbgf'>
+            E mais: suporte <br />que realmente <br />funciona!
+          </h1>
+          <p className='btns'>Respostas automáticas e robôs? <br />Aqui não. Nossa equipe está <br />sempre disponível pra ajudar você <br />e seus clientes.</p>
+        </section>
+        <section>
+          <h2 className='fontepigz'>pigz</h2>
+          <p className='fonteabaixo'>Tudo o que você precisa</p>
+        </section>
     </div>
   );
 
