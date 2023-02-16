@@ -19,25 +19,38 @@ body{
 
   header  {
     width: 90pt;
-    background: #fff;
+    background: white;
     width: 414pt;
     position: fixed;
- 
+    
   }
   
   
   
- .seçao1{
+  .seçao1{
     display: flex;
     justify-content: space-between;
     margin-left: 16pt;
     margin-right: 140pt;
   }
   
-.artigo{
-  display: flex;
-  justify-content: space-between;
- }
+  .artigo{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fonteseçao{
+    font-family: 'poppins', Isans-serif;
+    color: white;
+    font-size: 40pt;
+    line-height: 48pt;
+    margin-top: 90pt;
+    margin-bottom: 0;
+    white-space: nowrap;
+    letter-spacing: 0;
+    position: absolute;
+  
+  }
   
 .burguer{
     display: flex;
@@ -45,6 +58,7 @@ body{
     height: 250pt;
     margin-left: 162%;
     margin-top: 66pt;
+    
   }
 
 .seçao2{
@@ -63,13 +77,13 @@ body{
   text-align: start;
   border-radius: 32px;
   background-color: white;
-  padding-top: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 24pt;
+  padding-right: 24pt;
   width: 382pt;
   height: 547pt;
   display: flexbox;
   flex-direction: column;
+  justify-content: end;
   
 }
 
@@ -99,18 +113,6 @@ body{
   margin-bottom: 0
 }
 
-.fonteseçao{
-  font-family: 'poppins', Isans-serif;
-  color: white;
-  font-size: 40pt;
-  line-height: 48pt;
-  margin-top: 90pt;
-  margin-bottom: 0;
-  white-space: nowrap;
-  letter-spacing: 0;
-  position: absolute;
-
-}
 
 .fontepp{
   font: 16px / 24px 'Poppins';
@@ -143,7 +145,6 @@ body{
   font-size: 12px;
   padding: 12px 20px;
   margin-top: 6pt;
-  margin-bottom: 20pt;
   box-sizing: border-box;
   border-radius: 16pt;
   font-family: 'poppins';
@@ -165,10 +166,10 @@ body{
 
 .buttoncontinue{
   background-color: #FA641E;
-  font: 'poppins' white;
   border-radius: 20px;
+  font-size: 16pt;
   padding: 10px 30px;
-  font: 16px / 24px 'Poppins';
+  font-family: "poppins", sans-serif;  
   color: white;
   width: 334pt;
   height: 48pt;
@@ -276,10 +277,8 @@ body{
 }
 
 .fonte{
-  font: 600 24px / 32px Poppins;
+  font-family: 'poppins' ,sans-serif;
   font-size: 28pt;
-
-  letter-spacing: -1px; 
 }
 
 .skfsj{

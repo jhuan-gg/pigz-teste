@@ -4,6 +4,8 @@ import PigzPigz from './components/informaçoes/PigzPigz';
 import Pagamento from './components/informaçoes/Pagamento';
 import WhatsApp from './components/informaçoes/Whatsapp';
 import Footer from './components/Rodape.js/Footer';
+import FormularioOne from './components/formularios/FormularioOne';
+import SetFormulario from './components/formularios/SetFormulario';
 
 function App() {
   return (
@@ -31,28 +33,7 @@ function App() {
               <article>
                 <h4 className='fontepp'>Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.</h4>
               </article>
-            <form id='login' className='formulario'>
-              
-                <h1  className='fonte'>Quero vender no Pigz</h1>
-                <p className='fontone ckjdsfc'>Dê o primeiro passo para aumentar suas vendas</p>
-              
-              
-                <p className='fontone skfsj'>Nome</p>
-                <input type="text" placeholder='digite seu nome' name="nome" className='imputnome texto' />
-              
-              
-                <p className='fontone skfsj'>E-mail</p>
-                <input type="text" placeholder='digite seu e-mail' name='email' className='inputemail texto' />
-              
-              
-                <p className='fontone skfsj'>Telefone</p>
-                <input type="tel" id='phone' placeholder="(XX) XXXXX-XXXX" name='phone' className='inputnumero texto' />
-              
-              
-                <p className='fontep ckjdsfc'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</p>
-              
-                <button className='buttoncontinue'>continuar</button>
-              </form>
+              <SetFormulario />
           </section>
         </div>
         <section className='kvdjoj'>
